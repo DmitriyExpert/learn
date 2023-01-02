@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/settings.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/afb61712a6.js" crossorigin="anonymous"></script>
+    <title>WP - Тег ссылки</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header id="header">
+            <div class="_container">
+               <div class="haeder__wrapper">
+                    <div class="logo__wrapper"><a href="index.html" class="logo">WP</a></div>
+                    <nav class="header__nav">
+                        <ul class="header__menu menu">
+                            <a href="index.html" class="menu__item"><li>Главная</li></a>
+                            <a href="tutorial.html" class="menu__item"><li>Web - технологии</li></a>
+                            <a href="contact.html" class="menu__item"><li>Контакты</li></a>
+                            <a href="about.html" class="menu__item"><li>О сайте</li></a>
+                        </ul>
+                        <div class="hamburger-menu">
+                            <input id="menu__toggle" type="checkbox"/>
+                            <label class="menu__button" for="menu__toggle">
+                              <span></span>
+                            </label>
+                        
+                            <ul class="burger__menu--box" id="nav">
+                                <li><a class="bureger__menu--item" href="index.html">Главная</a></li>
+                                <li><a class="bureger__menu--item" href="tutorial.html">Web - технологии</a></li>
+                                <li><a class="bureger__menu--item" href="contact.html">Контакты</a></li>
+                                <li><a class="bureger__menu--item" href="about.html">О сайте</a></li>
+                              </ul>
+                        </div>
+                    </nav>
+               </div>
+            </div>
+        </header>
+
+        <div class="content content--html">
+            <div class="_container">
+                <div class="html__wrapper">
+                    <h2 class="html__title">Изучение HTML</h2>
+                    <div class="html__list">
+                        <h3 class="html__list--title">Список литературы:</h3>
+                        <ul class="html__ul">
+                            <a href="html.html" class="html__ul--item"><li>- Элементы и теги элементов - HTML</li></a>
+                            <a href="html2.html" class="html__ul--item"><li>- Что такое атрибуты? - HTML</li></a>
+                            <a href="html3.html" class="html__ul--item"><li>- Теги текста - HTML</li></a>
+                            <a href="html4.html" class="html__ul--item"><li>- Тег ссылки и его атрибуты - HTML</li></a>
+                            <a href="html5.html" class="html__ul--item"><li>- Тег изображения и его атрибуты - HTML</li></a>
+                            <a href="html6.html" class="html__ul--item"><li>- HTML списки</li></a>
+                            <a href="html7.html" class="html__ul--item"><li>- HTML таблицы</li></a>
+                        </ul>
+                    </div>
+                    <div class="html__content--box">
+                        <h2 class="html__content--title">
+                            Тег ссылки и его атрибуты - HTML:
+                        </h2>
+                        <div class="html__info--wrapper">
+                            <div class="html__info">
+                                <p class="whoisteg html--fontsett"> <span>HTML - тег ссылки</span> - элемент на дереве сайта, который представляет собой связь
+                                    между документом, тоесть страницей сайта, и прочими ресурсами или документами.
+                                </p>
+                                <p class="whoiselement html--fontsett"><span>Элементы ссылок</span> делятся на разные типы, они могут быть внешними, которые подключают прочие
+                                    файлы для работы с сайтом, и гиперссылки, которые связывают элемент на данном сайте с другим сайтом или ресурсом.
+                                </p>
+    
+                                <div class="element__syntax--box">
+                                    <h3 class="element__syntax--title">Синтаксис элементов ссылок:</h3>
+                                    <div class="element__subtitle--box">
+                                        <p class="element__syntax--subtitletitle">Синтаксис внешних ссылок - <span>&lt;link&gt;</span></p>
+                                        <p class="element__syntax--subtitletitle">Синтаксис гиперссылок - <span>&lt;a&gt; &lt;/a&gt;</span></p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                            <div class="html__info">
+                                <iframe class="html__info--video" width="560" height="350" src="https://www.youtube.com/embed/D8_mJAZf5PE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="html__tb--namebox">
+                            <h2 class="html__tb--name">Таблица атрибутов элементов ссылки:</h2>
+                        </div>
+                        <table class="html__tb tb" id="tb1">
+                            <tbody>
+                                <tr>
+                                    <td style="width: 20%">
+                                        <p class="tb__title tb__element--color">Атрибут</p>
+                                    </td>
+                                    <td>
+                                        <p class="tb__title">Описание атрибута</p>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="tb__element--sett tb__element--color">href</td>
+                                    <td class="tb__element--sett tb__align--justify"><p>Вмещает в себя URL - ссылку на другой документ. Пользователь, нажав на ссылку,
+                                        автоматически переходит в новый документ или ресурс.
+                                    </p>
+                                    <p class="abzac">Синтаксис атрибута: <span>&lt;a href = "путь до файла, или ссылка на ресурс"&gt; &lt;/a&gt;</span></p>
+                                </td>
+                                </tr>
+                                <tr>
+                                    <td class="tb__element--sett tb__element--color">download</td>
+                                    <td class="tb__element--sett tb__align--justify">
+                                        <p>
+                                            При нажатии на ссылку, файл, который был добавлен внутрь ссылки, будет скачен на комьютер. 
+                                            Это может применятся к фотографиям, картинкам, некторым медиа и видео файлам.
+                                        </p>
+                                        <p class="abzac">Синтаксис атрибута: <span>&lt;a href = "..." download&gt; &lt;/a&gt;</span></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tb__element--sett tb__element--color">hreflang</td>
+                                    <td class="tb__element--sett tb__align--justify">
+                                        <p>Определяет, какой язык присущ связанному документу или ресурсу, поэтому не используется без атрибута <span>href.</span></p>
+                                        <p class="abzac">Синтаксис атрибута: <span>&lt;a href = "..." hreflang = "en or ru"&gt; &lt;/a&gt;</span></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tb__element--sett tb__element--color">ping</td>
+                                    <td class="tb__element--sett tb__align--justify"><p>Данный атрибут позволяет отслеживать, перешел ли пользователь по ссылке.</p></td>
+                                </tr>
+                                <tr>
+                                    <td class="tb__element--sett tb__element--color">target</td>
+                                    <td class="tb__element--sett tb__align--justify">
+                                        <p>Данный атрибут указывает на то в какой вкладке будет открываться ссылка. По стандарту, ссылка открывается в той вкладке, в которой находится пользователь.</p>
+                                        <p class="abzac"><span>Параметры, которые принимает атрибут:</span></p>
+                                        <p class="abzac"><span>_blank</span> - открывает файл или ресурс в новой вкладке.</p>
+                                        <p class="abzac"><span>_self</span> - ссылка открывается во вкладке, где находится пользователь.</p>
+                                        <p class="abzac"><span>_top</span> -  ссылка открывается во вкладке на всю страницу.</p>
+                                        <p class="abzac"><span>_parent</span> - ссылка открывается в родительском элементе.</p>
+                                        <p class="abzac">Cинстаксис атрибута: - <span>&lt;a href = "..." target = "_blank"&gt; &lt;/a&gt;</span></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tb__element--sett tb__element--color">type</td>
+                                    <td class="tb__element--sett tb__align--justify">
+                                        Определяет тип файла, его расширение.
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer">
+            <div class="_container">
+                <div class="footer__wrapper fo-db">
+                    <div class="footer__item fi-big">
+                        <nav class="footer__nav">
+                            <h3 class="footer--title">Основные ссылки</h3>
+                            <ul class="footer__menu">
+                                <a href="index.html" class="footer__menu--item"><li>Главная</li></a>
+                                <a href="tutorial.html" class="footer__menu--item"><li>Web-Технологии</li></a>
+                                <a href="contact.html" class="footer__menu--item"><li>Контакты</li></a>
+                                <a href="about.html" class="footer__menu--item"><li>О сайте</li></a>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer__item fi-sm">
+                        <a href="index.html" class="logo logo--color logo-after--content">WP</a>
+                        <div class="social__box">
+                            <a href="https://vk.com/id266275865" target="_blank"><i class="fa-brands fa-vk fa-xl"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer__item fi-big">
+                        <nav class="footer__nav">
+                            <h3 class="footer--title">Основные Web-Технологии</h3>
+                            <ul class="footer__menu">
+                                <a href="html.html" class="footer__menu--item"><li>HTML</li></a>
+                                <a href="css.html" class="footer__menu--item"><li>CSS</li></a>
+                                <a href="js.html" class="footer__menu--item"><li>JavaScript</li></a>
+                            </ul>
+                            <a href="tutorial.html" class="footer__btn">
+                                Изучать
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="footer__wrapper fo-dn">
+                    <div class="footer__item adaptive__footer--flex adap-flex-sm">
+                        <a href="index.html" class="logo logo--color logo-after--content">WP</a>
+                        <div class="social__box">
+                            <a href="https://vk.com/id266275865" target="_blank"><i class="fa-brands fa-vk fa-xl"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer__item adaptive__footer--flex adap-flex-bg">
+                        <nav class="footer__nav">
+                            <h3 class="footer--title">Основные ссылки</h3>
+                            <ul class="footer__menu">
+                                <a href="index.html" class="footer__menu--item"><li>Главная</li></a>
+                                <a href="tutorial.html" class="footer__menu--item"><li>Web-Технологии</li></a>
+                                <a href="contact.html" class="footer__menu--item"><li>Контакты</li></a>
+                                <a href="about.html" class="footer__menu--item"><li>О сайте</li></a>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <p class="footer--text">© сайт создан в рамках школьного проекта</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

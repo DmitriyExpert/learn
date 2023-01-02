@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/settings.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/afb61712a6.js" crossorigin="anonymous"></script>
+    <title>WP - CSS</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header id="header">
+            <div class="_container">
+               <div class="haeder__wrapper">
+                    <div class="logo__wrapper"><a href="index.html" class="logo">WP</a></div>
+                    <nav class="header__nav">
+                        <ul class="header__menu menu">
+                            <a href="index.html" class="menu__item"><li>Главная</li></a>
+                            <a href="tutorial.html" class="menu__item"><li>Web - технологии</li></a>
+                            <a href="contact.html" class="menu__item"><li>Контакты</li></a>
+                            <a href="about.html" class="menu__item"><li>О сайте</li></a>
+                        </ul>
+                        <div class="hamburger-menu">
+                            <input id="menu__toggle" type="checkbox"/>
+                            <label class="menu__button" for="menu__toggle">
+                              <span></span>
+                            </label>
+                        
+                            <ul class="burger__menu--box" id="nav">
+                                <li><a class="bureger__menu--item" href="index.html">Главная</a></li>
+                                <li><a class="bureger__menu--item" href="tutorial.html">Web - технологии</a></li>
+                                <li><a class="bureger__menu--item" href="contact.html">Контакты</a></li>
+                                <li><a class="bureger__menu--item" href="about.html">О сайте</a></li>
+                              </ul>
+                        </div>
+                    </nav>
+               </div>
+            </div>
+        </header>
+
+        <div class="content content--html">
+            <div class="_container">
+                <div class="html__wrapper">
+                    <h2 class="html__title">Изучение CSS</h2>
+                    <div class="html__list">
+                        <h3 class="html__list--title">Список литературы:</h3>
+                        <ul class="html__ul">
+                            <a href="html.html" class="html__ul--item"><li><span>-</span> CSS - понятия и основы</li></a>
+                        </ul>
+                    </div>
+                    <div class="html__content--box">
+                        <h2 class="html__content--title">
+                            CSS - понятия и основы:
+                        </h2>
+
+                        <div class="html__info--wrapper">
+                            <div class="html__info">
+                                <p class="whoisteg html--fontsett"> <span>CSS</span> - это каскадные таблицы стилей, которые позволяют разнообразить контент
+                                    создаваемый одним html. С помощью данной технологии можно менять цвета шрифтов, фонов; еще можно задавать позицию 
+                                    элементов на сайте.
+                                </p>
+                                <p class="whoiselement html--fontsett">Сейчас, сайт без <span>CSS</span> не мыслим, ведь с появлением новых требований и стандартов, сайт без CSS - не валиден.
+                                </p>
+                                <p class="whoiselement html--fontsett">
+                                    Рассмативая технологию <span>каскадных таблиц стией</span>, можно сделать вывод, что существуют несколько видов таких таблиц.
+                                </p>
+    
+                                <div class="element__syntax--box">
+                                    <h3 class="element__syntax--title">Виды таблиц стилей:</h3>
+                                    <div class="element__subtitle--box">
+                                        <p class="element__syntax--subtitletitle">
+                                            <span>Внешняя таблица стиля</span> - это файл с расширением .css который подключается в теге <span>&lt;link&gt;</span>,
+                                                внутри тега <span>&lt;head&gt;</span>, синтаксис: <span>&lt;link rel="stylesheet" href="css/style.css"&gt;</span>.
+                                        </p>
+                                        <p class="element__syntax--subtitletitle">
+                                            <span>Внутренняя таблица стилей</span> - также встраиваются в тег &lt;head&gt;, но структура кода у них другая:
+                                            <span>&lt;style&gt; &lt;/style&gt;</span>. То есть внутри данного тега уже прописываются свойства для элементов.
+                                            Но в отличии от внешней таблицы, она работает лишь на той страницы, где указана.
+                                        </p>
+                                        <p class="element__syntax--subtitletitle">
+                                            <span>Встроенные стили</span> - это атрибут для элементов HTML - кода, который позволяет задать стиль, не прибегая к использованию
+                                            css файла. Например, <span>&lt;p style="max-width: 500px;"&gt;  &lt;/p&gt;</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                            <div class="html__info">
+                                <img src="assets/images/html/code.png" alt="code" class="html--img">
+                            </div>
+                        </div>
+                        <div class="element__syntax--box css__syntax--mr">
+                            <h3 class="element__syntax--title css--fs-big">Что такое селектор:</h3>
+                            <div class="element__subtitle--box">
+                                <p class="element__syntax--subtitletitle css--fs-med">
+                                    <span>Селекторы -</span> это структурные элементы web - страницы, которые позволяют создать CSS правила для всей страницы или элемента в частности. 
+                                    К селекторам относятся class, id, псевдоклассы и псевдоэлементы.
+                                </p>
+                            </div>
+                            <div class="element__subtitle--box">
+                                <h3 class="element__syntax--title css__syntax--mr css--fs-med">Виды селекторов:</h3>
+                                <p class="element__syntax--subtitletitle css--fs-low">
+                                    <span>Общий селектор -</span> это селектор позволяющий задать стили к всем элементам на странице. Но с данным
+                                    селектором нужно быть аккуратным. Пример использования общего селектора: <span>* { padding: 0; margin: 0; }</span>, данный стиль
+                                    убирает стандартные отступы для элементов.
+                                </p>
+
+                                <p class="element__syntax--subtitletitle css--fs-low css--mr-low">
+                                    <span>Селектор для отдельного элемента -</span> это селектор, который позволяет стилизовать элемент определенного типа, будто это элемент текта <span>p</span> или
+                                    целый блок <span>div</span>. Тоесть если задать стиль определенному элементу, то этот стиль распространится на все элементы этого типа на сайте. Пример использования данного селектора:
+                                    <span>p { font-size: 20px; }</span>.
+                                </p>
+
+                                <p class="element__syntax--subtitletitle css--fs-low css--mr-low">
+                                    <span>Селектор class -</span> это селектор, который позволяет стилизовать элемент, по заданному ему имени в атрибуте <span>class</span>.
+                                    При записи стилей, перед классом элемента ставится точка. 
+                                    Например, если тегу <span>p</span> задать <span>class = "subtitle"</span>, то его можно стелизовать по этому классу:
+                                    <span>.subtitle { font-family: sans-serif; }</span>
+                                </p>
+                                
+                                <p class="element__syntax--subtitletitle css--fs-low css--mr-low">
+                                    <span>Селектор id -</span> это селектор, позволяющий стилизовать ровно один элемент на страницы. Тоесть селектор <span>id</span> с определенным именем
+                                    нельзя задавать элементу, если на страницы есть элемент с таким же <span>id</span>, также имя данного селектора должно быть уникальным. При записи стилей, перед элементом ставится #. Например,
+                                    <span>#header { position: absolute; top: 0;}</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer">
+            <div class="_container">
+                <div class="footer__wrapper fo-db">
+                    <div class="footer__item fi-big">
+                        <nav class="footer__nav">
+                            <h3 class="footer--title">Основные ссылки</h3>
+                            <ul class="footer__menu">
+                                <a href="index.html" class="footer__menu--item"><li>Главная</li></a>
+                                <a href="tutorial.html" class="footer__menu--item"><li>Web-Технологии</li></a>
+                                <a href="contact.html" class="footer__menu--item"><li>Контакты</li></a>
+                                <a href="about.html" class="footer__menu--item"><li>О сайте</li></a>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer__item fi-sm">
+                        <a href="index.html" class="logo logo--color logo-after--content">WP</a>
+                        <div class="social__box">
+                            <a href="https://vk.com/id266275865" target="_blank"><i class="fa-brands fa-vk fa-xl"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer__item fi-big">
+                        <nav class="footer__nav">
+                            <h3 class="footer--title">Основные Web-Технологии</h3>
+                            <ul class="footer__menu">
+                                <a href="html.html" class="footer__menu--item"><li>HTML</li></a>
+                                <a href="css.html" class="footer__menu--item"><li>CSS</li></a>
+                                <a href="js.html" class="footer__menu--item"><li>JavaScript</li></a>
+                            </ul>
+                            <a href="tutorial.html" class="footer__btn">
+                                Изучать
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="footer__wrapper fo-dn">
+                    <div class="footer__item adaptive__footer--flex adap-flex-sm">
+                        <a href="index.html" class="logo logo--color logo-after--content">WP</a>
+                        <div class="social__box">
+                            <a href="https://vk.com/id266275865" target="_blank"><i class="fa-brands fa-vk fa-xl"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer__item adaptive__footer--flex adap-flex-bg">
+                        <nav class="footer__nav">
+                            <h3 class="footer--title">Основные ссылки</h3>
+                            <ul class="footer__menu">
+                                <a href="index.html" class="footer__menu--item"><li>Главная</li></a>
+                                <a href="tutorial.html" class="footer__menu--item"><li>Web-Технологии</li></a>
+                                <a href="contact.html" class="footer__menu--item"><li>Контакты</li></a>
+                                <a href="about.html" class="footer__menu--item"><li>О сайте</li></a>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <p class="footer--text">© сайт создан в рамках школьного проекта</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

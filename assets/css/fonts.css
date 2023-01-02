@@ -1,0 +1,4 @@
+@font-face{
+    font-family:"Open Sans";src:url("fonts/opensansbold.woff2") format("woff2"),url("fonts/opensansbold.woff") format("woff");font-weight:700;font-style:normal;font-display:swap
+}
+@font-face{font-family:"Open Sans";src:url("fonts/opensansregular.woff2") format("woff2"),url("fonts/opensansregular.woff") format("woff");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Roboto";src:url("fonts/robotobold.woff2") format("woff2"),url("fonts/robotobold.woff") format("woff");font-weight:700;font-style:normal;font-display:swap}@font-face{font-family:"Roboto";src:url("fonts/robotomedium.woff2") format("woff2"),url("fonts/robotomedium.woff") format("woff");font-weight:500;font-style:normal;font-display:swap}@font-face{font-family:"Roboto";src:url("fonts/robotoregular.woff2") format("woff2"),url("fonts/robotoregular.woff") format("woff");font-weight:400;font-style:normal;font-display:swap}

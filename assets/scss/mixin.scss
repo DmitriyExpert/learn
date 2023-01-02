@@ -1,0 +1,67 @@
+@mixin rob-reg {
+    font-family: "Roboto";
+    font-weight: 400;
+    line-height: 1.3em;
+    font-style: normal;
+}
+
+@mixin robmed {
+    font-family: "Roboto";
+    font-weight: 500;
+    line-height: 1.3em;
+    font-style: normal;
+}
+
+@mixin robbold {
+    font-family: "Roboto";
+    font-weight: 700;
+    line-height: 1.3em;
+    font-style: normal;
+}
+
+@mixin montreg {
+    font-family: "Montserrat";
+    font-weight: 400;
+    line-height: 1.3em;
+    font-style: normal;
+}
+
+@mixin montbold {
+    font-family: "Montserrat";
+    font-weight: 700;
+    line-height: 1.3em;
+    font-style: normal;
+}
+
+@mixin montmed {
+    font-family: "Montserrat";
+    font-weight: 500;
+    line-height: 1.3em;
+    font-style: normal;
+}
+
+@mixin flexsett {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+@mixin flexnep {
+        display: flex;
+        align-items: center;
+}
+
+@mixin mcenter {
+        text-align: center;
+        margin: 0 auto;
+}
+
+@mixin btn {
+    display: inline-block;
+    text-align: center;
+    background-color: $blue;
+    @include robmed;
+    color: #fff;
+    border-radius: 100px;
+    border: solid 2px $blue;
+}

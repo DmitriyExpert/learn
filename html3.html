@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/settings.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/afb61712a6.js" crossorigin="anonymous"></script>
+    <title>WP - Теги текста</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header id="header">
+            <div class="_container">
+               <div class="haeder__wrapper">
+                    <div class="logo__wrapper"><a href="index.html" class="logo">WP</a></div>
+                    <nav class="header__nav">
+                        <ul class="header__menu menu">
+                            <a href="index.html" class="menu__item"><li>Главная</li></a>
+                            <a href="tutorial.html" class="menu__item"><li>Web - технологии</li></a>
+                            <a href="contact.html" class="menu__item"><li>Контакты</li></a>
+                            <a href="about.html" class="menu__item"><li>О сайте</li></a>
+                        </ul>
+                        <div class="hamburger-menu">
+                            <input id="menu__toggle" type="checkbox"/>
+                            <label class="menu__button" for="menu__toggle">
+                              <span></span>
+                            </label>
+                        
+                            <ul class="burger__menu--box" id="nav">
+                                <li><a class="bureger__menu--item" href="index.html">Главная</a></li>
+                                <li><a class="bureger__menu--item" href="tutorial.html">Web - технологии</a></li>
+                                <li><a class="bureger__menu--item" href="contact.html">Контакты</a></li>
+                                <li><a class="bureger__menu--item" href="about.html">О сайте</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+               </div>
+            </div>
+        </header>
+        <div class="content content--html">
+            <div class="_container">
+                <div class="html__wrapper">
+                    <h2 class="html__title">Изучение HTML</h2>
+                    <div class="html__list">
+                        <h3 class="html__list--title">Список литературы:</h3>
+                        <ul class="html__ul">
+                            <a href="html.html" class="html__ul--item"><li>- Элементы и теги элементов - HTML</li></a>
+                            <a href="html2.html" class="html__ul--item"><li>- Что такое атрибуты? - HTML</li></a>
+                            <a href="html3.html" class="html__ul--item"><li>- Теги текста - HTML</li></a>
+                            <a href="html4.html" class="html__ul--item"><li>- Тег ссылки и его атрибуты - HTML</li></a>
+                            <a href="html5.html" class="html__ul--item"><li>- Тег изображения и его атрибуты - HTML</li></a>
+                            <a href="html6.html" class="html__ul--item"><li>- HTML списки</li></a>
+                            <a href="html7.html" class="html__ul--item"><li>- HTML таблицы</li></a>
+                        </ul>
+                    </div>
+                    <div class="html__content--box">
+                        <h2 class="html__content--title">
+                            Теги текста и их атрибуты:
+                        </h2>
+
+                        <div class="html__info--wrapper">
+                            <div class="html__info">
+                                <p class="whoisteg html--fontsett"> 
+                                    <span>HTML - теги текста</span> - данные теги занимают основное пространство на сайте,
+                                    следовательно используются чаще всего. К ним, по стандарту не присущи ни какие стили, поэтому они визуально никак не выглядят. 
+                                </p>
+                                <p class="html--fontsett">Что же отличает их от других тегов? Главным отличием является то, что они являются контейнером для любого текста на сайте,
+                                    позволяют упорядочить, выровнить до нужной длинны, задать стили тексту. 
+                                </p>
+                                <p class="html--fontsett">
+                                    Данные теги позволяют понять пользователю, какие слова на сайте могут быть для него важны, а какие несовсем.  
+                                </p>
+                                <p class="html--fontsett">
+                                    Как и прочие теги, теги текста являются элементами и строятся на дереве сайта, тоесть в теге <span>body</span>.  
+                                </p>
+    
+                                <div class="element__syntax--box">
+                                    <h3 class="element__syntax--title">Синтаксис тегов текста:</h3>
+                                    <div class="element__subtitle--box">
+                                        <p class="element__syntax--subtitletitle">Синтаксис обычных тегов текста: <span>&lt;тег&gt; контент &lt;/тег&gt;</span> </p>
+                                        <p class="element__syntax--subtitletitle">Синтаксис пустых тегов текста: <span>&lt;тег&gt;</span></p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                            <div class="html__info">
+                                <img src="assets/images/html/code.png" alt="code" class="html--img">
+                            </div>
+                        </div>
+
+                        <div class="html__tb--namebox">
+                            <h2 class="html__tb--name">Таблица элементов текста:</h2>
+                        </div>
+
+                        <table class="html__tb tb" id="tb3">
+                            <tbody>
+                                <tr>
+                                    <td style="width: 20%">
+                                        <p class="tb__title tb__element--color">Элемент</p>
+                                    </td>
+                                    <td>
+                                        <p class="tb__title">Описание элемента</p>
+                                    </td>
+                                    <td class="db">
+                                        <p class="tb__title">Видеосопровождение</p>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="tb__element--sett tb__element--color">&lt;h1 - h6&gt;</td>
+                                    <td class="tb__element--sett tb__element--leftside">
+                                        <p class="abzac__title">Заголовки:</p>
+                                        <p class="abzac">Являются самым важным элементов текста на дереве сайта.
+                                            Данный тег является элементом заголовка: сайта, раздела или под раздела. 
+                                            Это не просто тег, а целый список, от <span>h1</span> до <span>h6</span>. У данного элемента существует иерархия,
+                                            сначала h1, потом h2 и так далее, в зависимости от раздела или подраздела
+                                        </p>
+                                        <p class="abzac">
+                                            Данному элементу, изначально заданы стили размера шрифта, что позволяет увидеть полную иерархию данного тега на сайте.
+                                        </p>
+                                        <iframe class="dn-v" width="450" height="350" src="https://www.youtube.com/embed/K3HyJ0w_3IY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </td>
+                                    <td class="tb__element--sett db">
+                                        <iframe width="450" height="350" src="https://www.youtube.com/embed/K3HyJ0w_3IY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tb__element--sett tb__element--color">&lt;p&gt;, &lt;br&gt;</td>
+                                    <td class="tb__element--sett tb__element--leftside">
+                                        <p class="abzac__title">Абзац и перенос строки:</p>
+                                        <p class="abzac">
+                                            Тег <span>&lt;p&gt;</span> - является контейнером для обзаца, чаще всего используется для косвенной информации после заголовков.
+                                        </p>
+                                        <p class="abzac">
+                                            Тег <span>&lt;br&gt;</span> - является переносом строки на новую строку. Его можно использовать посреди строки, но чаще всего
+                                            строкам задается фиксированная длинна, что позволяет переносить строки в автоматическом режиме.
+                                        </p>
+                                        <iframe class="dn-v" width="450" height="350" src="https://www.youtube.com/embed/inUofVzdxlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </td>
+                                    <td class="tb__element--sett db">
+                                        <iframe width="450" height="350" src="https://www.youtube.com/embed/inUofVzdxlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tb__element--sett tb__element--color">&lt;b&gt;, &lt;em&gt;, &lt;i&gt;, &lt;small&gt;, &lt;strong&gt;</td>
+                                    <td class="tb__element--sett tb__element--leftside">
+                                        <p class="abzac__title">
+                                            Теги для выделения текста:
+                                        </p>
+                                        <p class="abzac">
+                                            Тег <span>&lt;b&gt;</span> - задает полужирное начертание текста.
+                                        </p>
+                                        <p class="abzac">
+                                            Тег <span>&lt;em&gt;</span> - задает курсивное начертание текста. Служит для выделения важности текста.
+                                        </p>
+                                        <p class="abzac">
+                                            Тег <span>&lt;i&gt;</span> - задает курсивное начертание текста без акцента на важность.
+                                        </p>
+                                        <p class="abzac">
+                                            Тег <span>&lt;small&gt;</span> - уменьшает текст на 1 еденицу, от того значения, которое было задано контейнеру с текстом.
+                                        </p>
+                                        <p class="abzac">
+                                            Тег <span>&lt;strong&gt;</span> - делает шрифт полужирным. Делает акцент на важность выделенного текста.
+                                        </p>
+                                        <iframe class="dn-v" width="450" height="350" src="https://www.youtube.com/embed/qvHZhz5fxhs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </td>
+                                    <td class="tb__element--sett db">
+                                        <iframe width="450" height="350" src="https://www.youtube.com/embed/qvHZhz5fxhs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <h3 class="html--note">Примечание:</h3>
+                        <p class="html--notesub">Атрибуты элементов текста находятся в <span><a href="html2.html">глобальных атрибутах.</a></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <footer id="footer">
+            <div class="_container">
+                <div class="footer__wrapper fo-db">
+                    <div class="footer__item fi-big">
+                        <nav class="footer__nav">
+                            <h3 class="footer--title">Основные ссылки</h3>
+                            <ul class="footer__menu">
+                                <a href="index.html" class="footer__menu--item"><li>Главная</li></a>
+                                <a href="tutorial.html" class="footer__menu--item"><li>Web-Технологии</li></a>
+                                <a href="contact.html" class="footer__menu--item"><li>Контакты</li></a>
+                                <a href="about.html" class="footer__menu--item"><li>О сайте</li></a>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer__item fi-sm">
+                        <a href="index.html" class="logo logo--color logo-after--content">WP</a>
+                        <div class="social__box">
+                            <a href="https://vk.com/id266275865" target="_blank"><i class="fa-brands fa-vk fa-xl"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer__item fi-big">
+                        <nav class="footer__nav">
+                            <h3 class="footer--title">Основные Web-Технологии</h3>
+                            <ul class="footer__menu">
+                                <a href="html.html" class="footer__menu--item"><li>HTML</li></a>
+                                <a href="css.html" class="footer__menu--item"><li>CSS</li></a>
+                                <a href="js.html" class="footer__menu--item"><li>JavaScript</li></a>
+                            </ul>
+                            <a href="tutorial.html" class="footer__btn">
+                                Изучать
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="footer__wrapper fo-dn">
+                    <div class="footer__item adaptive__footer--flex adap-flex-sm">
+                        <a href="index.html" class="logo logo--color logo-after--content">WP</a>
+                        <div class="social__box">
+                            <a href="https://vk.com/id266275865" target="_blank"><i class="fa-brands fa-vk fa-xl"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer__item adaptive__footer--flex adap-flex-bg">
+                        <nav class="footer__nav">
+                            <h3 class="footer--title">Основные ссылки</h3>
+                            <ul class="footer__menu">
+                                <a href="index.html" class="footer__menu--item"><li>Главная</li></a>
+                                <a href="tutorial.html" class="footer__menu--item"><li>Web-Технологии</li></a>
+                                <a href="contact.html" class="footer__menu--item"><li>Контакты</li></a>
+                                <a href="about.html" class="footer__menu--item"><li>О сайте</li></a>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <p class="footer--text">© сайт создан в рамках школьного проекта</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

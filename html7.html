@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/settings.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/afb61712a6.js" crossorigin="anonymous"></script>
+    <title>WP - Таблицы</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header id="header">
+            <div class="_container">
+               <div class="haeder__wrapper">
+                    <div class="logo__wrapper"><a href="index.html" class="logo">WP</a></div>
+                    <nav class="header__nav">
+                        <ul class="header__menu menu">
+                            <a href="index.html" class="menu__item"><li>Главная</li></a>
+                            <a href="tutorial.html" class="menu__item"><li>Web - технологии</li></a>
+                            <a href="contact.html" class="menu__item"><li>Контакты</li></a>
+                            <a href="about.html" class="menu__item"><li>О сайте</li></a>
+                        </ul>
+                        <div class="hamburger-menu">
+                            <input id="menu__toggle" type="checkbox"/>
+                            <label class="menu__button" for="menu__toggle">
+                              <span></span>
+                            </label>
+                        
+                            <ul class="burger__menu--box" id="nav">
+                                <li><a class="bureger__menu--item" href="index.html">Главная</a></li>
+                                <li><a class="bureger__menu--item" href="tutorial.html">Web - технологии</a></li>
+                                <li><a class="bureger__menu--item" href="contact.html">Контакты</a></li>
+                                <li><a class="bureger__menu--item" href="about.html">О сайте</a></li>
+                              </ul>
+                        </div>
+                    </nav>
+               </div>
+            </div>
+        </header>
+        <div class="content content--html">
+            <div class="_container">
+                <div class="html__wrapper">
+                    <h2 class="html__title">Изучение HTML</h2>
+                    <div class="html__list">
+                        <h3 class="html__list--title">Список литературы:</h3>
+                        <ul class="html__ul">
+                            <a href="html.html" class="html__ul--item"><li>- Элементы и теги элементов - HTML</li></a>
+                            <a href="html2.html" class="html__ul--item"><li>- Что такое атрибуты? - HTML</li></a>
+                            <a href="html3.html" class="html__ul--item"><li>- Теги текста - HTML</li></a>
+                            <a href="html4.html" class="html__ul--item"><li>- Тег ссылки и его атрибуты - HTML</li></a>
+                            <a href="html5.html" class="html__ul--item"><li>- Тег изображения и его атрибуты - HTML</li></a>
+                            <a href="html6.html" class="html__ul--item"><li>- HTML списки</li></a>
+                            <a href="html7.html" class="html__ul--item"><li>- HTML таблицы</li></a>
+                        </ul>
+                    </div>
+                    <div class="html__content--box">
+                        <h2 class="html__content--title">
+                            HTML таблицы:
+                        </h2>
+                        <div class="html__info--wrapper">
+                            <div class="html__info">
+                                <p class="whoisteg html--fontsett"> <span>HTML таблицы</span> - 
+                                    используются для группировки информации в строки и столбцы в ячейках. Как обычно таблицы строятся с помощью пересечений столбцов и строк.
+                                </p>
+                                <p class="whoiselement html--fontsett">
+                                    <span>таблицы</span> являются контейнером для любых элементов: текста, ссылки, изображения, списки.
+                                    Восновном таблицы не используются в современных сайтах, так как это усложняет процесс адаптации сайта на других видах устройств.  
+                                </p>
+    
+                                <div class="html__syntax--tbl syntax--tbl">
+                                    <h3 class="element__syntax--title">Синтаксис таблиц:</h3>
+                                    <p class="syntax--tbl__subtitle">
+                                        Синтаксис <span>таблиц</span> сложнее, чем у других элементов, так как он включает в себя еще несколько элементов, таких как:
+                                    </p>
+                                    <p class="syntax--tbl__subtitle"><span>&lt;table&gt; &lt;/table&gt;</span> - объявляет на сайте таблицу.</p>
+                                    <p class="syntax--tbl__subtitle"><span>&lt;thead&gt; &lt;/thead&gt;</span> - объявляет шапку таблицы.</p>
+                                    <p class="syntax--tbl__subtitle"><span>&lt;tbody&gt; &lt;/tbody&gt;</span> - объявляет тело таблицы.</p>
+                                    <p class="syntax--tbl__subtitle"><span>&lt;tfoot&gt; &lt;/tfoot&gt;</span> - объявляет подвал таблицы, в котором подводятся какие - либо итоги.</p>
+                                    <p class="syntax--tbl__subtitle"><span>&lt;th&gt; &lt;/th&gt;</span> - объявляет заголовки таблицы, или колонок таблицы, рекомендуется использовать в <span>&lt;thead&gt; &lt;/thead&gt;</span>.</p>
+                                    <p class="syntax--tbl__subtitle"><span>&lt;td&gt; &lt;/td&gt;</span> - объявляет основной контент ячеек в таблице, рекомендуется использовать в <span>&lt;tbody&gt; &lt;/tbody&gt;</span>.</p>
+                                </div>
+                                
+                            </div>
+
+                            <div class="html__info">
+                                <img src="assets/images/html/code.png" alt="code" class="html--img">
+                            </div>
+                        </div>
+                        <div class="html__tb--namebox">
+                            <h2 class="html__tb--name">Таблица атрибутов элементов изображения:</h2>
+                        </div>
+                        <table class="html__tb tb" id="tb1">
+                            <tbody>
+                                <tr>
+                                    <td style="width: 20%;">
+                                        <p class="tb__title tb__element--color">Атрибут</p>
+                                    </td>
+                                    <td>
+                                        <p class="tb__title">Описание атрибута</p>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="tb__element--sett tb__element--color">align</td>
+                                    <td class="tb__element--sett tb__align--justify"><p>
+                                        Данный атрибут служит для выравнивания таблицы на сайте.
+                                    </p>
+                                    <p class="abzac">Синтаксис атрибута: <span>&lt;table align = "right"&gt; &lt;/table&gt;</span></p>
+                                </td>
+                                </tr>
+                                <tr>
+                                    <td class="tb__element--sett tb__element--color">background</td>
+                                    <td class="tb__element--sett tb__align--justify">
+                                        <p>
+                                            Данный атрибут задает изображение заднего фона таблицы.
+                                        </p>
+                                        <p class="abzac">Синтаксис атрибута: <span>&lt;table background = "путь к изображению"&gt; &lt;/table&gt;</span></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tb__element--sett tb__element--color">bgcolor</td>
+                                    <td class="tb__element--sett tb__align--justify">
+                                        <p>
+                                            Данный атрибут задает цвет заднего фона таблицы.
+                                        </p>
+                                        <p class="abzac">Синтаксис атрибута: <span>&lt;table bgcolor = "цвет | HEX код"&gt; &lt;/table&gt;</span></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tb__element--sett tb__element--color">border</td>
+                                    <td class="tb__element--sett tb__align--justify">
+                                        <p>
+                                            Данный атрибут задает ширину рамки вокруг таблицы, и между ее элементами.
+                                        </p>
+                                        <p class="abzac">Синтаксис атрибута: <span>&lt;table border = "значение в px"&gt; &lt;/table&gt;</span></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tb__element--sett tb__element--color">bordercolor</td>
+                                    <td class="tb__element--sett tb__align--justify">
+                                        <p>
+                                            Данный атрибут задает цвет рамки таблицы.
+                                        </p>
+                                        <p class="abzac">Синтаксис атрибута: <span>&lt;table bordercolor = "цвет | HEX код"&gt; &lt;/table&gt;</span></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tb__element--sett tb__element--color">сols</td>
+                                    <td class="tb__element--sett tb__align--justify">
+                                        <p>
+                                            Данный атрибут задает число колонок в таблице.
+                                        </p>
+                                        <p class="abzac">Синтаксис атрибута: <span>&lt;table cols = "число"&gt; &lt;/table&gt;</span></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tb__element--sett tb__element--color">height</td>
+                                    <td class="tb__element--sett tb__align--justify">
+                                        <p>
+                                            Данный атрибут задает фиксированную высоту таблицы.
+                                        </p>
+                                        <p class="abzac">Синтаксис атрибута: <span>&lt;table height = "значение в px"&gt; &lt;/table&gt;</span></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tb__element--sett tb__element--color">width</td>
+                                    <td class="tb__element--sett tb__align--justify">
+                                        <p>
+                                            Данный атрибут задает фиксированную длинну таблицы.
+                                        </p>
+                                        <p class="abzac">Синтаксис атрибута: <span>&lt;table width = "значение в px"&gt; &lt;/table&gt;</span></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tb__element--sett tb__element--color">summary</td>
+                                    <td class="tb__element--sett tb__align--justify">
+                                        <p>
+                                            Данный атрибут позволяет создать краткое описание для таблицы.
+                                        </p>
+                                        <p class="abzac">Синтаксис атрибута: <span>&lt;table summary = "описание"&gt; &lt;/table&gt;</span></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tb__element--sett tb__element--color">cellpadding</td>
+                                    <td class="tb__element--sett tb__align--justify">
+                                        <p>
+                                            Данный атрибут позволяет создать отступ от рамки до контента в ячейки таблицы.
+                                        </p>
+                                        <p class="abzac">Синтаксис атрибута: <span>&lt;table cellpadding = "значение в px"&gt; &lt;/table&gt;</span></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tb__element--sett tb__element--color">cellspacing</td>
+                                    <td class="tb__element--sett tb__align--justify">
+                                        <p>
+                                            Данный атрибут позволяет создать отступ между ячейками таблицы.
+                                        </p>
+                                        <p class="abzac">Синтаксис атрибута: <span>&lt;table cellspacing = "значение в px"&gt; &lt;/table&gt;</span></p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer">
+            <div class="_container">
+                <div class="footer__wrapper fo-db">
+                    <div class="footer__item fi-big">
+                        <nav class="footer__nav">
+                            <h3 class="footer--title">Основные ссылки</h3>
+                            <ul class="footer__menu">
+                                <a href="index.html" class="footer__menu--item"><li>Главная</li></a>
+                                <a href="tutorial.html" class="footer__menu--item"><li>Web-Технологии</li></a>
+                                <a href="contact.html" class="footer__menu--item"><li>Контакты</li></a>
+                                <a href="about.html" class="footer__menu--item"><li>О сайте</li></a>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer__item fi-sm">
+                        <a href="index.html" class="logo logo--color logo-after--content">WP</a>
+                        <div class="social__box">
+                            <a href="https://vk.com/id266275865" target="_blank"><i class="fa-brands fa-vk fa-xl"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer__item fi-big">
+                        <nav class="footer__nav">
+                            <h3 class="footer--title">Основные Web-Технологии</h3>
+                            <ul class="footer__menu">
+                                <a href="html.html" class="footer__menu--item"><li>HTML</li></a>
+                                <a href="css.html" class="footer__menu--item"><li>CSS</li></a>
+                                <a href="js.html" class="footer__menu--item"><li>JavaScript</li></a>
+                            </ul>
+                            <a href="tutorial.html" class="footer__btn">
+                                Изучать
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="footer__wrapper fo-dn">
+                    <div class="footer__item adaptive__footer--flex adap-flex-sm">
+                        <a href="index.html" class="logo logo--color logo-after--content">WP</a>
+                        <div class="social__box">
+                            <a href="https://vk.com/id266275865" target="_blank"><i class="fa-brands fa-vk fa-xl"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer__item adaptive__footer--flex adap-flex-bg">
+                        <nav class="footer__nav">
+                            <h3 class="footer--title">Основные ссылки</h3>
+                            <ul class="footer__menu">
+                                <a href="index.html" class="footer__menu--item"><li>Главная</li></a>
+                                <a href="tutorial.html" class="footer__menu--item"><li>Web-Технологии</li></a>
+                                <a href="contact.html" class="footer__menu--item"><li>Контакты</li></a>
+                                <a href="about.html" class="footer__menu--item"><li>О сайте</li></a>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <p class="footer--text">© сайт создан в рамках школьного проекта</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
